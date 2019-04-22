@@ -21,6 +21,19 @@ The tool was developed to work as a CGI application. The web acessible version o
 + [cgi](https://docs.python.org/2/library/cgi.html), [cgitb](https://docs.python.org/2/library/cgitb.html)
 + other python libraries as sys, collections and time
 
+## External sources used:
+This tool uses a set of external sources and information that is available in text files along with the scripts.
+These external informations are:
++ Vista enhancers from [UCSC Genome Browser](https://genome.ucsc.edu/)
++ Cytoband and Chromosome sizes for hg19 and hg38 genome versions from [UCSC Genome Browser](https://genome.ucsc.edu/)
++ Haploinsufficiency index (HI) and probability that a gene is intolerant to a Loss of Function mutation (pli) from [Decipher](https://decipher.sanger.ac.uk/)
++ observed / expected score (oe) from [gnomad](https://gnomad.broadinstitute.org/)
++ Topological Associated Domains (TADs) for Stem Cells (hESC) and fibroblasts (IMR90) from [Dixon et al., 2012](https://www.ncbi.nlm.nih.gov/pubmed/22495300)
++ Topological Associated Domains (TADs) for lymphoblastoid cell lines (GM12878) from [Moore et al., 2015](https://github.com/blmoore/3dgenome)
++ Mouse Genome Informatics (MGI) associated acessions from [MGI](http://www.informatics.jax.org/)
++ Gene2Phenotype (G2P) data from [G2P](https://www.ebi.ac.uk/gene2phenotype)
++ Overlap with Truesight panels from [Illumina](https://www.illumina.com/products/by-type/clinical-research-products/trusight-one.html)
+
 ## Usage:
 
 To put this tool up and runing just clone the repository, and move the contents to the cgi-bin folder of your webserver.
@@ -44,4 +57,3 @@ GPLv2
 ## Found a bug?
 
 Or maybe just wanto to drop some feedback? Just open an issue on github!
-   
