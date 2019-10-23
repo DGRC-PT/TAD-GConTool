@@ -24,6 +24,7 @@ The tool was developed to work as a CGI application. The web acessible version o
 ## External sources used:
 This tool uses a set of external sources and information that is available in text files along with the scripts.
 These external informations are:
++ [OMIM data](https://www.omim.org/). The user should ask for an API key on the OMIM website, and use it to replace "API_KEY" on the code.
 + Vista enhancers from [UCSC Genome Browser](https://genome.ucsc.edu/)
 + Cytoband and Chromosome sizes for hg19 and hg38 genome versions from [UCSC Genome Browser](https://genome.ucsc.edu/)
 + Haploinsufficiency index (HI) and probability that a gene is intolerant to a Loss of Function mutation (pli) from [Decipher](https://decipher.sanger.ac.uk/)
