@@ -196,7 +196,7 @@ def get_omim(dicc, disrupted,bp, tadd, dic_text, chrrr, name):
 		if value[-3]=="NOOMIM" and tadd in tdds:
 			make_report_table_not_OMIM(key,dicc, dic_text, chrrr, name)
 		if value[-2]!="BREAKPOINT" and value[-3]!="NOOMIM":###############################
-			request = Request("http://api.omim.org/api/entry?mimNumber="+value[-3]+"&apiKey=INM_rqetSn27Udaz9nrzBg&format=python&include=geneMap")
+			request = Request("http://api.omim.org/api/entry?mimNumber="+value[-3]+"&apiKey="+"API_KEY"+"&format=python&include=geneMap")
 			try:
 				response = urlopen(request)
 				kittens = response.read()
